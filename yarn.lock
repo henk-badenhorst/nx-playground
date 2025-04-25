@@ -7976,6 +7976,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nx/plugin@npm:20.8.0-beta.1":
+  version: 20.8.0-beta.1
+  resolution: "@nx/plugin@npm:20.8.0-beta.1"
+  dependencies:
+    "@nx/devkit": "npm:20.8.0-beta.1"
+    "@nx/eslint": "npm:20.8.0-beta.1"
+    "@nx/jest": "npm:20.8.0-beta.1"
+    "@nx/js": "npm:20.8.0-beta.1"
+    tslib: "npm:^2.3.0"
+  checksum: 10c0/e3a719c4372098582bc19d0054f7eeddf035e10e588485f6b37c58b248209e16617c0bc34f92dd7dfd7c282dc3a19acd71d98e754ca179693e5c97d707ae5527
+  languageName: node
+  linkType: hard
+
 "@nx/react@npm:20.8.0-beta.1":
   version: 20.8.0-beta.1
   resolution: "@nx/react@npm:20.8.0-beta.1"
@@ -19664,6 +19677,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lifecycle-hook-plugin@link:./tools/plugins/lifecycle-hook-plugin/package::locator=nx-example%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "lifecycle-hook-plugin@link:./tools/plugins/lifecycle-hook-plugin/package::locator=nx-example%40workspace%3A."
+  languageName: node
+  linkType: soft
+
 "lightercollective@npm:^0.1.0":
   version: 0.1.0
   resolution: "lightercollective@npm:0.1.0"
@@ -21361,6 +21380,7 @@ __metadata:
     "@nx/eslint-plugin": "npm:20.8.0-beta.1"
     "@nx/jest": "npm:20.8.0-beta.1"
     "@nx/js": "npm:20.8.0-beta.1"
+    "@nx/plugin": "npm:20.8.0-beta.1"
     "@nx/react": "npm:20.8.0-beta.1"
     "@nx/web": "npm:20.8.0-beta.1"
     "@nx/webpack": "npm:20.8.0-beta.1"
@@ -21399,6 +21419,7 @@ __metadata:
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
     jest-preset-angular: "npm:14.4.2"
+    lifecycle-hook-plugin: "link:./tools/plugins/lifecycle-hook-plugin/package"
     netlify: "npm:^2.4.8"
     normalize.css: "npm:^8.0.1"
     nx: "npm:20.8.0-beta.1"

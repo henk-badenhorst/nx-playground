@@ -43,6 +43,11 @@
     },
     "e2e-ci--**/*": {
       "dependsOn": ["^products:build"]
+    },
+    "@nx/js:tsc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     }
   },
   "namedInputs": {
@@ -64,6 +69,9 @@
   "nxCloudAccessToken": "MTE1ZmYwZmItNGQxNS00NWMyLWExY2YtYWIyODkxZTdkOWNkfHJlYWQ=",
   "parallel": 1,
   "plugins": [
+    {
+      "plugin": "lifecycle-hook-plugin"
+    },
     {
       "plugin": "@nx/eslint/plugin",
       "options": {
